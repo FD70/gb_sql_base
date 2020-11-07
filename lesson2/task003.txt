@@ -1,0 +1,4 @@
+cmd > 	mysqldump example > sample.sql
+# Создаю дб, для разворачивания дампа
+mysql > create database sample;
+cmd > 	mysql sample < sample.sql
