@@ -14,5 +14,4 @@ CREATE INDEX profiles_created_at ON profiles (created_at);
 CREATE INDEX users_first_last_name ON users (first_name, last_name);
 CREATE INDEX users_phone ON users (phone);
 CREATE INDEX users_email ON users (email);
-CREATE INDEX users_email ON users (email);
 CREATE INDEX users_created_at ON users (created_at);
