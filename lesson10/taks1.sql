@@ -1,0 +1,18 @@
+CREATE INDEX community_name ON communities(name);
+CREATE INDEX friendship_us_fr_status_id ON friendship(user_id, friend_id, status_id);
+CREATE INDEX likes_user_target_type_id ON likes(user_id, target_type_id);
+CREATE INDEX likes_target_targetId_type_id ON likes(target_id, target_type_id);
+CREATE INDEX media_user_id ON media(user_id);
+CREATE INDEX media_size ON media(size);
+CREATE INDEX media_type_id ON media(media_type_id);
+CREATE INDEX msg_from_to_user_id ON messages (from_user_id, to_user_id, is_important);
+CREATE INDEX msg_from_user_id ON messages (from_user_id);
+CREATE INDEX msg_to_user_id ON messages (to_user_id);
+CREATE INDEX profiles_gender ON profiles (gender);
+CREATE INDEX profiles_birthday ON profiles (birthday);
+CREATE INDEX profiles_created_at ON profiles (created_at);
+CREATE INDEX users_first_last_name ON users (first_name, last_name);
+CREATE INDEX users_phone ON users (phone);
+CREATE INDEX users_email ON users (email);
+CREATE INDEX users_email ON users (email);
+CREATE INDEX users_created_at ON users (created_at);
